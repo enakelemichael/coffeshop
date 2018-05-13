@@ -1,0 +1,198 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+nav {
+    height: 177px;
+    .nav-container {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        img {
+            align-self: center;
+            margin-top: 16px;
+        }
+        ul {
+            align-self: center;
+            display: flex;
+            align-content: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            padding-top: 6px;
+            li {
+                padding: 0 8px;
+                a {
+                    text-decoration: none;
+                    color: rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+    }
+}
+
+#home {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+#logo {
+    width: 99px;
+    height: 99px;
+}
+
+.main-container {
+    .h1 {
+        margin-top: 40px;
+        width: 156px;
+        height: 152px;
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: condensed;
+        line-height: 1.53;
+        letter-spacing: 2.8px;
+        text-align: left;
+        color: #000000;
+    }
+    h2 {
+        margin-top: 38px;
+        width: 223px;
+        height: 169px;
+        font-family: Roboto;
+        font-size: 32px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: condensed;
+        line-height: 1.5;
+        letter-spacing: 2.2px;
+        text-align: left;
+        color: #000000;
+    }
+    .counter {
+        margin-top: 76px;
+    }
+    .map {
+        margin-bottom: -40px;
+    }
+    #h2-coffee {
+        width: auto;
+        height: 50px;
+    }
+    .espresso-machine-detail {
+        margin-bottom: -40px;
+      }
+}
+
+@media only screen and (min-width: 960px) {
+    nav {
+        height: 182px;
+        .nav-container {
+            width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            img {
+                margin-right: auto;
+                margin-top: 16px;
+            }
+            ul {
+                align-self: center;
+                display: flex;
+                align-content: center;
+                list-style-type: none;
+                padding-top: 6px;
+                li {
+                    padding: 0 8px;
+                    a {
+                        text-decoration: none;
+                        color: rgba(0, 0, 0, 0.5);
+                    }
+                }
+            }
+        }
+    }
+
+    #logo {
+        width: 149px;
+        height: 149px;
+    }
+
+
+    .main-container {
+        width: 960px;
+        margin: 0 auto;
+        padding-left: 0;
+        h1 {
+            margin-top: 52px;
+            width: auto;
+            height: auto;
+        }
+        h2 {
+            margin-top: 38px;
+            width: auto;
+            height: auto;
+        }
+        .info {
+            padding: 16px 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+        }
+        .map {
+            margin-bottom: -40px;
+        }
+        .espresso-machine-detail {
+            margin-bottom: -40px;
+          }
+    }
+    footer {
+        display: flex;
+        ul {
+            align-self: flex-start;
+            padding-top: 0;
+            li {
+                padding: 0 28px;
+            }
+        }
+    }
+}
+
+footer {
+    height: 346px;
+    background-color: #343a40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ul {
+        display: flex;
+        align-self: center;
+        list-style-type: none;
+        padding-left: 0;
+        padding-top: 67px;
+        margin-bottom: 80px;
+        li {
+            padding: 0 8px;
+            a {
+                color: #0099ff;
+            }
+        }
+    }
+    .hashtag {
+        color: #ced4da;
+        font-size: 20px;
+    }
+    p {
+        color: #ced4da;
+        margin-bottom: 40px;
+    }
+}
+
+#home2 {
+    color: #ced4da;
+}
+
